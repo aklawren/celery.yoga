@@ -1,0 +1,35 @@
+body{
+  background-color: #afd7af;
+  margin: auto;
+}
+
+html, body, .container {
+    height: 100%;
+    text-align: center;
+}
+
+.containerParent {
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+    height: -webkit-fill-available;
+}
+
+
+.titleText {
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  font-size: 10em;
+}
+
+.subText {
+  font-family: 'Hepta Slab', serif;
+  font-size: 2em;
+  color: #3c823c;
+}
